@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-    background-color: #1A535C; /* Verde escuro neutro */
+    background-color: #1A535C; 
     color: #FFFFFF; /* Texto branco */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,12 +14,12 @@ body {
 
 h1 {
     text-align: center;
-    color: #FF6B6B; /* Cor vibrante para o título */
+    color: #FF6B6B;
     margin-bottom: 30px;
 }
 
 h2 {
-    color: #4ECDC4; /* Cor suave para subtítulos */
+    color: #4ECDC4; 
     margin-top: 20px;
 }
 
@@ -35,18 +35,18 @@ li {
     margin-bottom: 10px;
 }
 
-/* Barras de conteúdo */
+
 .content-bar {
-    background-color: rgba(255, 255, 255, 0.1); /* Fundo branco semi-transparente */
+    background-color: rgba(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Links */
+
 a {
-    color: #FF6B6B; /* Cor vibrante para links */
+    color: #FF6B6B; 
     text-decoration: none;
 }
 
