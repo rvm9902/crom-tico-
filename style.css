@@ -1,50 +1,55 @@
+/* Estilos gerais */
 body {
-    background-color: #1A535C;
+    background-color: #1A535C; /* Verde escuro neutro */
+    color: #FFFFFF; /* Texto branco */
     font-family: Arial, sans-serif;
-    color: #000000; /* Preto */
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
 }
 
-/* Estilos das seções de harmonia */
-.harmony-section {
-    background-color: #FFFFFF; /* Branco */
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+h1 {
+    text-align: center;
+    color: #FF6B6B; /* Cor vibrante para o título */
+    margin-bottom: 30px;
 }
 
-.harmony-section h2 {
-    color: #000000; /* Preto */
-    margin-top: 0;
-}
-
-.harmony-section p {
-    color: #000000; /* Preto */
-    line-height: 1.6;
-}
-
-/* Exemplos de cores */
-.color-example {
-    display: flex;
-    justify-content: space-around;
+h2 {
+    color: #4ECDC4; /* Cor suave para subtítulos */
     margin-top: 20px;
 }
 
-.color-box {
-    width: 100px;
-    height: 100px;
+p, ul {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Barras de conteúdo */
+.content-bar {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo branco semi-transparente */
+    padding: 20px;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000; /* Preto */
-    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+    color: #FF6B6B; /* Cor vibrante para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
